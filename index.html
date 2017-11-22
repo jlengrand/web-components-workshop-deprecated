@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <body>
+        <h1>WebComponents workshop</h1>
+        <p>In this workshop, we will create new custom HTML Components</p>
+
+        <hello-world></hello-world>
+
+        <button onclick="removeHelloWorld()">Click me</button>
+        
+        <script src="src/components/hello-world.js"></script>
+        <script>
+            function removeHelloWorld(){
+                console.log("Called!");
+
+                const helloElement = document.getElementsByTagName("hello-world")[0];
+                helloElement.parentNode.removeChild(helloElement);
+            }
+        </script>
+    </body>
+</html>

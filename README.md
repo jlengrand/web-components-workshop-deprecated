@@ -8,8 +8,6 @@ This repo was created to support [a workshop](https://www.meetup.com/Coffee-Code
 
 ## TODO
 
-* Firefox support
-* Extension component
 * Testing component
 * Shadow DOM
 * Stencil ? 

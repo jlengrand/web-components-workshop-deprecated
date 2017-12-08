@@ -4,28 +4,27 @@ class CatImgElement extends HTMLElement {
         constructor(){
             super();
             
-            this.setAttribute('imgtype', 'cats');
-            this.setAttribute('xsize', '400');
-            this.setAttribute('ysize', '200');
-
+            this.imgtype = 'cats';
+            this.xsize = '400';
+            this.ysize = '200';
         }    
     
         connectedCallback(){
-            this.render(this.imgtype, this.xsize, this.ysize);
+            this.render();
         }
     
         disconnectedCallback(){
         }
     
         attributeChangedCallback(attributeName, oldValue, newValue, namespace){
-                this.render(this.imgtype, this.xsize, this.ysize);                  
+                this.render();                  
         }    
 
-        render(imgType, xSize, ySize){
-            console.log(`rendering with ${imgType} ${xSize} ${ySize}`);
+        render(){
+            console.log(`rendering with ${this.imgtype} ${this.xsize} ${this.ysize}`);
             this.innerHTML = `
             <h1>Here comes an image</h1>
-            <img src="http://lorempixel.com/${xSize}/${ySize}/${imgType}"</img>`;
+            <img src="http://lorempixel.com/${this.xsize}/${this.ysize}/${this.imgtype}"</img>`;
         }
 
         get imgtype(){
@@ -40,7 +39,7 @@ class CatImgElement extends HTMLElement {
             return this.getAttribute('xsize');            
         }
 
-        set xsize(xsize){
+        set xsize(xSize){
             this.setAttribute('xsize', xSize);
         }
 

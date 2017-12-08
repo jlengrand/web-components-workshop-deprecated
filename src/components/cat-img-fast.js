@@ -10,7 +10,7 @@ class CatImgFastElement extends CatImgElement {
             <h1>Here comes a better image</h1>
             <img height=${this.ysize} width=${this.xsize}
                 src="http://lorempixel.com/${this.xsize}/${this.ysize}/${this.imgtype}"
-                style="background: url('src/img/cat-loading.gif'); background-size: cover;"
+                style="background: no-repeat center/90% url('src/img/cat-loading.gif');"
             </img>`;
         }    
 }

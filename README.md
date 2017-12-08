@@ -5,3 +5,12 @@ This repo was created to support [a workshop](https://www.meetup.com/Coffee-Code
 ## Slides and Work Material
 
 [Slides are here](https://docs.google.com/presentation/d/1h_wp7a_xbjJxeNLu6_Dd8Q4fBy2zA6jc1AjZrNqSEjo/edit?usp=sharing)
+
+## TODO
+
+* Firefox support
+* First component
+* Extension component
+* Testing component
+* Shadow DOM
+* Stencil ? 

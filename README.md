@@ -14,3 +14,5 @@ This repo was created to support [a workshop](https://www.meetup.com/Coffee-Code
 * Testing component
 * Shadow DOM
 * Stencil ? 
+* Auto update? 
+* Naming - , or uppercase?

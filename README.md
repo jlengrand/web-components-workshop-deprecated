@@ -8,8 +8,6 @@ This repo was created to support [a workshop](https://www.meetup.com/Coffee-Code
 
 ## TODO
 
-* Testing component
-* Using templates
 * WebServer
 * Polymer tutorial
 * slot

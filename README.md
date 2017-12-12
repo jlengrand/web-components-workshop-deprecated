@@ -1,6 +1,8 @@
 # Introduction to Web Components
 
-This repo was created to support [a workshop](https://www.meetup.com/Coffee-Code-and-Chat/events/244822183/) given in Utrecht in November 2017.
+This repo was created to support [a technical workshop](https://www.meetup.com/Coffee-Code-and-Chat/events/245662648/) given in Utrecht in December 2017.
+
+Each index file represents a simple exercise meant to show a given aspect of **[Web Components](https://www.webcomponents.org/)**.
 
 ## Slides and Work Material
 
@@ -8,7 +10,5 @@ This repo was created to support [a workshop](https://www.meetup.com/Coffee-Code
 
 ## TODO
 
-* WebServer
 * Polymer tutorial
-* slot
 * Finish PPT

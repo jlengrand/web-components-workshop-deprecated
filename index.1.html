@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    </head>
+
+    <body>
+
+        <h1>WebComponents workshop</h1>
+        <p>In this workshop, we will create new custom HTML Components</p>
+        <h2>Creating a new component that accepts parameters</h2>
+        
+        <hello-world-with-params name="Meetup"></hello-world-with-params>
+
+        <div>
+            <input type="text" id="hello-world-param">        
+            <button onclick="changeHelloWorldParam()">Click me to change Hello World's parameter</button>        
+        </div>   
+
+        <script src="src/components/hello-world-with-params.js"></script>
+        <script>
+            function changeHelloWorldParam(){
+                const helloParamElement = document.getElementsByTagName("hello-world-with-params")[0];
+                document.getElementsByTagName("hello-world-with-params")[0].setAttribute("name", "plop");
+            }
+        </script>
+    </body>
+</html>

@@ -17,7 +17,7 @@ class CatImgElement extends HTMLElement {
         }
     
         attributeChangedCallback(attributeName, oldValue, newValue, namespace){
-                this.render();                  
+            this.render();                  
         }    
 
         render(){
@@ -52,7 +52,7 @@ class CatImgElement extends HTMLElement {
         }
     }
     
-        window.customElements.define(
-                        'cat-img', 
-                         CatImgElement);
+    window.customElements.define(
+                    'cat-img', 
+                        CatImgElement);
     

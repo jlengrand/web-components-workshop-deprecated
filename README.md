@@ -12,3 +12,8 @@ This repo was created to support [a workshop](https://www.meetup.com/Coffee-Code
 * Shadow DOM
 * Stencil ? 
 * Naming - , or uppercase?
+* Using templates
+* WebServer
+* Polymer tutorial
+* Finish PPT
+* https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements/Custom_Elements_with_Classes

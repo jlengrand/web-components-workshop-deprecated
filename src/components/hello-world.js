@@ -2,18 +2,16 @@ class HelloWorldElement extends HTMLElement {
 
     constructor(){
         super()
-        
-        this.innerHTML = `<h1>Hello Meetup !</h1>`;
     }    
 
     connectedCallback(){
+        this.innerHTML = `<h1>Hello Meetup !</h1>`;
         console.log("I'm here!");
     }
 
     disconnectedCallback(){
         console.log("I'm gone!");
     }
-
 }
 
     window.customElements.define(

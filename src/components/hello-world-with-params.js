@@ -3,9 +3,11 @@ class HelloWorldWithParamsElement extends HTMLElement {
     
     constructor(){
         super()
-        
-        this.innerHTML = `<h1>Hello default!</h1>`;
     }    
+
+    connectedCallback(){
+        this.innerHTML = `<h1>Hello default!</h1>`;        
+    }
 
     attributeChangedCallback(attributeName, oldValue, newValue, namespace){
         if(attributeName === "name"){
